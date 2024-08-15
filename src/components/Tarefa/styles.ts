@@ -5,12 +5,13 @@ export const Card = styled.div`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 16px;
   margin-bottom: 32px;
-  border-radius: 26px;
+  border-radius: 16px;
 `
 
 export const Titulo = styled.h3`
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 16px;
 `
 
 export const Tag = styled.span`
@@ -33,6 +34,9 @@ export const Descricao = styled.textarea`
   width: 100%;
   margin-bottom: 16px;
   margin-top: 16px;
+  resize: none;
+  border: none;
+  background-color: transparent;
 `
 
 export const BarraAcoes = styled.div`
